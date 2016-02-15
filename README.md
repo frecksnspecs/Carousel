@@ -27,8 +27,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 
 ## Notes
-
-Had trouble getting page controls working based on how assignment laid it out, but was able to get it to work using another tutorial and a hack to hide static page control in assets. 
+Didn't get as far as I'd have liked to with optionals.
 
 ## License
 
