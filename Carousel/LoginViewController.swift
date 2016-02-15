@@ -86,7 +86,7 @@ class LoginViewController: UIViewController, UIScrollViewDelegate {
             self.activityIndicatorView.startAnimating()
             delay(2, closure: { () -> () in
                 self.activityIndicatorView.stopAnimating()
-                //self.performSegueWithIdentifier("loginSegue", sender: nil)
+                self.performSegueWithIdentifier("welcomeSegue", sender: self)
             })
             
         } else {

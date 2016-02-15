@@ -12,6 +12,7 @@ class IntroViewController: UIViewController, UIScrollViewDelegate {
 
     @IBOutlet weak var introScrollView: UIScrollView!
     @IBOutlet weak var introImageView: UIImageView!
+    @IBOutlet weak var introTile1: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,6 +30,7 @@ class IntroViewController: UIViewController, UIScrollViewDelegate {
     
     func scrollViewDidScroll(scrollView: UIScrollView) {
         // This method is called as the user scrolls
+        //introTile1.transform = CGAffineTransformMakeScale(2, 2)
     }
     
     func scrollViewWillBeginDragging(scrollView: UIScrollView) {

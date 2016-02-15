@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C861F3201C719CE9003152FD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C861F31F1C719CE9003152FD /* LoginViewController.swift */; };
+		C861F3221C719F32003152FD /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C861F3211C719F32003152FD /* WelcomeViewController.swift */; };
+		C861F3241C71ABAA003152FD /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C861F3231C71ABAA003152FD /* FeedViewController.swift */; };
+		C861F3261C71AD1F003152FD /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C861F3251C71AD1F003152FD /* ConversationsViewController.swift */; };
+		C861F3281C71AEBC003152FD /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C861F3271C71AEBC003152FD /* SettingsViewController.swift */; };
 		C8DB5DC51C7146B200DCAEC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DB5DC41C7146B200DCAEC3 /* AppDelegate.swift */; };
 		C8DB5DC71C7146B200DCAEC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DB5DC61C7146B200DCAEC3 /* ViewController.swift */; };
 		C8DB5DCA1C7146B200DCAEC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8DB5DC81C7146B200DCAEC3 /* Main.storyboard */; };
@@ -16,7 +21,6 @@
 		C8DB5DE51C7146B300DCAEC3 /* CarouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DB5DE41C7146B300DCAEC3 /* CarouselUITests.swift */; };
 		C8DB5DF31C71474400DCAEC3 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DB5DF21C71474400DCAEC3 /* Common.swift */; };
 		C8DB5DF51C71476500DCAEC3 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DB5DF41C71476500DCAEC3 /* IntroViewController.swift */; };
-		C8DB5DF71C71608C00DCAEC3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DB5DF61C71608C00DCAEC3 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C861F31F1C719CE9003152FD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C861F3211C719F32003152FD /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		C861F3231C71ABAA003152FD /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		C861F3251C71AD1F003152FD /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		C861F3271C71AEBC003152FD /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		C8DB5DC11C7146B200DCAEC3 /* Carousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8DB5DC41C7146B200DCAEC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8DB5DC61C7146B200DCAEC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +61,6 @@
 		C8DB5DE61C7146B300DCAEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8DB5DF21C71474400DCAEC3 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		C8DB5DF41C71476500DCAEC3 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
-		C8DB5DF61C71608C00DCAEC3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +111,15 @@
 		C8DB5DC31C7146B200DCAEC3 /* Carousel */ = {
 			isa = PBXGroup;
 			children = (
-				C8DB5DF61C71608C00DCAEC3 /* LoginViewController.swift */,
+				C861F31F1C719CE9003152FD /* LoginViewController.swift */,
 				C8DB5DC41C7146B200DCAEC3 /* AppDelegate.swift */,
 				C8DB5DF21C71474400DCAEC3 /* Common.swift */,
 				C8DB5DC61C7146B200DCAEC3 /* ViewController.swift */,
 				C8DB5DC81C7146B200DCAEC3 /* Main.storyboard */,
+				C861F3271C71AEBC003152FD /* SettingsViewController.swift */,
+				C861F3251C71AD1F003152FD /* ConversationsViewController.swift */,
+				C861F3231C71ABAA003152FD /* FeedViewController.swift */,
+				C861F3211C719F32003152FD /* WelcomeViewController.swift */,
 				C8DB5DF41C71476500DCAEC3 /* IntroViewController.swift */,
 				C8DB5DCB1C7146B200DCAEC3 /* Assets.xcassets */,
 				C8DB5DCD1C7146B200DCAEC3 /* LaunchScreen.storyboard */,
@@ -268,11 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C861F3201C719CE9003152FD /* LoginViewController.swift in Sources */,
 				C8DB5DC71C7146B200DCAEC3 /* ViewController.swift in Sources */,
 				C8DB5DF31C71474400DCAEC3 /* Common.swift in Sources */,
+				C861F3261C71AD1F003152FD /* ConversationsViewController.swift in Sources */,
+				C861F3221C719F32003152FD /* WelcomeViewController.swift in Sources */,
 				C8DB5DC51C7146B200DCAEC3 /* AppDelegate.swift in Sources */,
-				C8DB5DF71C71608C00DCAEC3 /* LoginViewController.swift in Sources */,
 				C8DB5DF51C71476500DCAEC3 /* IntroViewController.swift in Sources */,
+				C861F3241C71ABAA003152FD /* FeedViewController.swift in Sources */,
+				C861F3281C71AEBC003152FD /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +513,7 @@
 				C8DB5DEB1C7146B300DCAEC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8DB5DEC1C7146B300DCAEC3 /* Build configuration list for PBXNativeTarget "CarouselTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +522,7 @@
 				C8DB5DEE1C7146B300DCAEC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8DB5DEF1C7146B300DCAEC3 /* Build configuration list for PBXNativeTarget "CarouselUITests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +531,7 @@
 				C8DB5DF11C7146B300DCAEC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
